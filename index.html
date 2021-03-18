@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link rel="stylesheet" href="./css/main.css">
+      <script src="https://kit.fontawesome.com/42658a6db6.js" crossorigin="anonymous"></script>
+
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>gymify</title>
+    </head>
+
+    <body id="#home" class="scrollspy">
+        <!--NAVBAR-->
+        <div class="navbar-fixed">
+            <nav class="red accent-4">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="#" class="brand-logo"><i class="fas fa-dumbbell hide-on-small-only"></i> GYMIFY <i class="fas fa-dumbbell right hide-on-small-only"></i></a> 
+                        <a href="#" data-target="mobile-nav" class="sidenav-trigger right"><i class="material-icons">menu</i> </a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#home">HOME</a></li>
+                            <li><a href="#about">ABOUT US</a></li>
+                            <li><a href="#services">SERVICES</a></li>
+                            <li><a href="#classes">CLASSES</a></li>
+                            <li><a href="#gallery">GALLERY</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <ul class="sidenav grey darken-1 " id="mobile-nav">
+            <li><a href="#home" class="white-text">HOME</a></li>
+            <li><a href="#about" class="white-text">ABOUT US</a></li>
+            <li><a href="#classes"class="white-text">CLASSES</a></li>
+            <li><a href="#services" class="white-text">SERVICES</a></li>
+            <li><a href="#gallery" class="white-text">GALLERY</a></li>
+            <li><a href="#contact"class="white-text">CONTACT</a></li>
+        </ul>
+
+        <!--SLIDER/CAROUSEL-->
+        <section class="slider">
+            <ul class="slides">
+                <li>
+                  <img src="./img/slider-1-1.jpg"> <!-- random image -->
+                  <div class="caption center-align">
+                    <h2>Willpower knows no obstacles.</h2>
+                    <h5 class="light grey-text text-lighten-3 hide-on-small-only">Practice hard, play strong, pain is glory</h5>
+                  </div>
+                </li>
+                <li>
+                  <img src="./img/slider-3.jpg"> <!-- random image -->
+                  <div class="caption left-align">
+                    <h2>Get In. Get Fit. Get on with Life.</h2>
+                    <h5 class="light grey-text text-lighten-3 hide-on-small-only">Success never comes to those who quit.</h5>
+                  </div>
+                </li>
+                <li>
+                  <img src="./img/slider-2.jpg"> <!-- random image -->
+                  <div class="caption right-align">
+                    <h2>In Pursuit of Good Health</h2>
+                    <h5 class="light grey-text text-lighten-3 hide-on-small-only">The evolution of fitness for HER.</h5>
+                  </div>
+                </li>
+                <li>
+                  <img src="./img/re-slider-4.jpg"> <!-- random image -->
+                  <div class="caption center-align">
+                    <h2>Hustle to gain more muscle.</h2>
+                    <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+                        Lift like a man, look like a goddess.
+                    </h5>
+                  </div>
+                </li>
+                <li>
+                    <img src="./img/gallery-8.jpg"> <!-- random image -->
+                    <div class="caption center-align">
+                      <h2>Lift like a man, look like a goddess.</h2>
+                      <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+                            It never gets easier. You just get strong.
+                      </h5>
+                    </div>
+                  </li>
+              </ul>
+
+        </section>
+
+        <!--Search section-->
+        <section id="search" class="section section-search red darken-2 white-text center scrollspy">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h3>Search Nearby Gym</h3>
+                        <div class="input-field">
+                            <input type="text" class="white grey-text autocomplete" id="autocomplete" placeholder="Accra, Lapaz, Achimota, etc">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--icon section-->
+        <section class="section-icons center" id="services">
+            <div class="container">
+                <h5 class="red-text text-darken-4"> WHY CHOOSE WE?</h5>
+                <h4 class=""> PUSH YOUR LIMITS FORWARD</h4>
+                <div class="row">
+                    <div class="col s12 m4 ">
+                        <div class="card-panel">
+                            <i class="fas fa-dumbbell fa-3x grey-text text-darken-2"></i>
+                            <h5> Modern Equipment</h5>
+                            <p class="grey-text text-darken-1">Lorem ipsum dolor sit amet consectetur adipisicing consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card-panel">
+                            <i class="fas fa-heartbeat fa-3x grey-text text-darken-2 "></i>
+                            <h5> Healthy Nutrition Plan</h5>
+                            <p class="grey-text text-darken-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card-panel">
+                            <i class="fas fa-biking fa-3x grey-text text-darken-2"></i>
+                            <h5> Professional Training Plan</h5>
+                            <p class="grey-text text-darken-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Service Section-->
+        <section id="services" class="section section-service scrollspy">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./img/cycling.jpg" alt="">
+                                <span class="card-title"> Cardio </span>
+                            </div>
+                            <div class="card-content">
+                                <p class="flow-text">INDOOR CYCLING</p>
+                                <br><a href="#">Join Now</a>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./img/weight.jpg" alt="">
+                                <span class="card-title"> Strength </span>
+                            </div>
+                            <div class="card-content">
+                                <p class="flow-text">WEIGHTLIFTING</p>
+                                <br><a href="#">Join Now  </a>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./img/boxing.jpg" alt="">
+                                <span class="card-title"> Training </span>
+                            </div>
+                            <div class="card-content">
+                                <p class="flow-text">BOXING</p>
+                                <br><a href="#" class="text-red">Join Now </a>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Register-->
+        <section class="registration section" id="about" >
+            <div class="container">
+                <div class="registration-content caption center-align">
+                    <h4>REGISTER NOW TO GET MORE DEALS</h4>
+                    <p class="grey-text text-lighten-5">WHERE HEALTH, BEAUTY AND FITNESS MEET.</p>
+                    <a class="btn waves-effect waves-light red darken-4 grey-text text-lighten-5">JOIN NOW</a>
+                </div>
+              </div>
+        </section>
+
+        <!--Pricing Plan-->
+        <section class="pricing-section section center" id="classes">
+            
+            <div class="container">
+                <h5 class="red-text text-darken-4">OUR PLAN</h5>
+                <h4>CHOOSE YOUR PRICING PLAN</h4>
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="card center-align">
+                            <ul class="collection with-header">
+                                <li class="collection-header">
+                                    <h5>Drop-In Class</h5>
+                                    <h4 class="red-text text-darken-2">$39.5</h4>
+                                    <span>SINGLE CLASS</span>
+                                </li>
+                                <li class="collection-item">Free riding</li>
+                                <li class="collection-item">Unlimited equipments</li>
+                                <li class="collection-item">Personal trainer</li>
+                                <li class="collection-item">Weight losing classes</li>
+                                <li class="collection-item">Month to month</li>
+                                <li class="collection-item">No time restriction</li>
+                              </ul>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m4">
+                        <div class="card center-align">
+                            <ul class="collection with-header">
+                                <li class="collection-header">
+                                    <h5>6 Month Unlimited</h5>
+                                    <h4 class="red-text text-darken-2">$69.0</h4>
+                                    <span>SINGLE CLASS</span>
+                                </li>
+                                <li class="collection-item">Free riding</li>
+                                <li class="collection-item">Unlimited equipments</li>
+                                <li class="collection-item">Personal trainer</li>
+                                <li class="collection-item">Weight losing classes</li>
+                                <li class="collection-item">Month to month</li>
+                                <li class="collection-item">No time restriction</li>
+                              </ul>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m4">
+                        <div class="card center-align">
+                            <ul class="collection with-header">
+                                <li class="collection-header">
+                                    <h5>12 Month Unlimited</h5>
+                                    <h4 class="red-text text-darken-2">$99.0</h4>
+                                    <span>SINGLE CLASS</span>
+                                </li>
+                                <li class="collection-item">Free riding</li>
+                                <li class="collection-item">Unlimited equipments</li>
+                                <li class="collection-item">Personal trainer</li>
+                                <li class="collection-item">Weight losing classes </li>
+                                <li class="collection-item">Month to month</li>
+                                <li class="collection-item">No time restriction</li>
+                              </ul>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+
+        <!--gallery section-->
+        <section id="gallery" class="section section-gallery scrollspy">
+            <div class="container">
+                <h4 class="center grey-text text-darken-4">
+                    <span class="red-text">PHOTO</span> GALLERY
+                </h4>
+                <div class="row">
+                    <div class="col s12 m3 hoverable">
+                        <img src="./img/gallery-12.jpg" alt="gallery" class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3 hoverable">
+                        <img src="./img/gallery-10.jpg" alt="gallery" class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3 hoverable">
+                        <img src="./img/gallery-3.jpg" alt="gallery" class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3 hoverable">
+                        <img src="./img/gallery-11.jpg" alt="gallery" class="materialboxed responsive-img">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s12 m3 hoverable">
+                        <img src="./img/showcase-2.jpg" alt="gallery" class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3 hoverable">
+                        <img src="./img/showcase.jpg" alt="gallery" class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3 hoverable">
+                        <img src="./img/gallery-4.jpg" alt="gallery" class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3 hoverable">
+                        <img src="./img/gallery-2.jpg" alt="gallery" class="materialboxed responsive-img">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s12 m3 hoverable">
+                        <img src="./img/gallery-7.jpg" alt="gallery" class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3 hoverable">
+                        <img src="./img/slider-2.jpg" alt="gallery" class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3 hoverable">
+                        <img src="./img/g-last.jpg" alt="gallery" class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3 hoverable">
+                        <img src="./img/gallery-girl.jpg" alt="gallery" class="materialboxed responsive-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--contact session-->
+        <section class="section contact-section red" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m4 ">
+                        <div class="card-content">
+                            <span class="grey-text text-darken-4"><i class="fas fa-map-marked-alt"></i> Winchendon Rd, Rindge, NH 03461</span>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card-content">
+                            <span class="grey-text text-darken-4"><i class="fas fa-phone-square-alt"></i> 125-711-811 | 125-668-886</span>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card-content ">
+                            <span class="grey-text text-darken-4"><i class="fas fa-envelope"></i> Support.gymcenter@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--footer section-->
+        <footer class="page-footer grey darken-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m4 describe">
+                    <h5 class="white-text"> <i class="fas fa-dumbbell"></i> GYMIFY <i class="fas fa-dumbbell"></i></h5>
+                    <p class="grey-text text-lighten-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua endisse ultrices gravida lorem.</p>
+                    <div class="social-icons">
+                        <p>Follow us</p>
+                        <a href="#"> <i class="fab fa-facebook-f blue-text text-darken-4"></i></a>
+                        <a href="#"><i class="fab fa-pinterest red-text text-darken-4"></i></a>
+                        <a href="#"> <i class="fab fa-twitter "></i></a>
+                        <a href="#"> <i class="fab fa-instagram pink-text text-darken-4"></i></a>
+                        <a href="#"><i class="fab fa-youtube red-text text-darken-4"></i> </a>
+                    </div>
+                    </div>
+                    <div class="col s12 m4 quick-links">
+                    <h5 class="white-text ">QUICK LINKS</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Healthy Lifestyle</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Body Building</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Gym Fitness</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Subscribe</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Terms & Policy</a></li>
+                    </ul>
+                    </div>
+                    <div class="col s12 m4">
+                        <h5 class="white-text">SUBSCRIBE TO OUR NEWSLETTER</h5>
+                        <div class="input-field">
+                            <input id="email" type="email" class="validate grey-text lighten-5">
+                            <label for="email" class="grey-text text-lighten-5" >Email</label>
+                            <span class="helper-text hide" data-error="wrong" data-success="right">Helper text</span>
+                        </div>
+                        <div class="input-field ">
+                            <textarea id="textarea1" class="materialize-textarea grey-text text-lighten-5"></textarea>
+                            <label for="textarea1" class="grey-text text-lighten-5">Message</label>
+                        </div>
+                        <div class="input-field">
+                            <a href="#" class="btn red darken-4 waves-effect btn-small"> SEND</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright grey darken-3">
+                <div class="center-align">Corey &copy; 2021 | All Rights Reserved</div>
+                
+            </div>
+        </footer>
+
+
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="./main.js">
+
+      </script>
+
+    </body>
+  </html>
